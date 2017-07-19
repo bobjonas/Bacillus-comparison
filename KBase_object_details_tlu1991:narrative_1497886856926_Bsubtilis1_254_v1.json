@@ -1,0 +1,119 @@
+{
+    "metadata": [
+        [
+            22, 
+            "Bsubtilis1_254", 
+            "KBaseGenomes.Genome-8.2", 
+            "2017-06-21T15:30:21+0000", 
+            1, 
+            "tlu1991", 
+            22079, 
+            "tlu1991:narrative_1497886856926", 
+            "abfce2b06e09ad0f7af12838f8a6b325", 
+            13370429, 
+            {
+                "Domain": "Bacteria", 
+                "GC content": "0.3517", 
+                "Genetic code": "0", 
+                "Name": "Bacillus subtilis strain 1-254", 
+                "Number features": "5610", 
+                "Size": "5724998", 
+                "Source": "PROKKA annotation pipeline"
+            }
+        ]
+    ], 
+    "provenance": [
+        {
+            "copy_source_inaccessible": 0, 
+            "created": "2017-06-21T15:30:21+0000", 
+            "creator": "tlu1991", 
+            "epoch": 1498059021116, 
+            "extracted_ids": {}, 
+            "info": [
+                22, 
+                "Bsubtilis1_254", 
+                "KBaseGenomes.Genome-8.2", 
+                "2017-06-21T15:30:21+0000", 
+                1, 
+                "tlu1991", 
+                22079, 
+                "tlu1991:narrative_1497886856926", 
+                "abfce2b06e09ad0f7af12838f8a6b325", 
+                13370429, 
+                {
+                    "Domain": "Bacteria", 
+                    "GC content": "0.3517", 
+                    "Genetic code": "0", 
+                    "Name": "Bacillus subtilis strain 1-254", 
+                    "Number features": "5610", 
+                    "Size": "5724998", 
+                    "Source": "PROKKA annotation pipeline"
+                }
+            ], 
+            "orig_wsid": 22079, 
+            "path": [
+                "22079/22/1"
+            ], 
+            "provenance": [
+                {
+                    "custom": {}, 
+                    "description": "KBase SDK method run via the KBase Execution Engine", 
+                    "epoch": 1498058444000, 
+                    "external_data": [], 
+                    "input_ws_objects": [
+                        "22079/10/1"
+                    ], 
+                    "method": "annotate_contigs", 
+                    "method_params": [
+                        {
+                            "assembly_ref": "tlu1991:narrative_1497886856926/SPAdes.contigs1-254", 
+                            "evalue": null, 
+                            "fast": 0, 
+                            "gcode": null, 
+                            "genus": null, 
+                            "kingdom": "Bacteria", 
+                            "metagenome": 0, 
+                            "mincontiglen": 1, 
+                            "norrna": 0, 
+                            "notrna": 0, 
+                            "output_genome_name": "Bsubtilis1_254", 
+                            "output_workspace": "tlu1991:narrative_1497886856926", 
+                            "rawproduct": 0, 
+                            "rfam": 0, 
+                            "scientific_name": "Bacillus subtilis strain 1-254"
+                        }
+                    ], 
+                    "resolved_ws_objects": [
+                        "22079/10/1"
+                    ], 
+                    "service": "ProkkaAnnotation", 
+                    "service_ver": "1.0.0", 
+                    "subactions": [
+                        {
+                            "code_url": "https://github.com/kbaseapps/ProkkaAnnotation", 
+                            "commit": "9a41b72605ccdee02567c84f3a9d9576d6c752bd", 
+                            "name": "ProkkaAnnotation", 
+                            "ver": "1.0.0"
+                        }, 
+                        {
+                            "code_url": "https://github.com/kbaseapps/AssemblyUtil", 
+                            "commit": "18479461aa49fbe6e635b206bcf375c605aaa8bd", 
+                            "name": "AssemblyUtil", 
+                            "ver": "1.0.2-release"
+                        }, 
+                        {
+                            "code_url": "https://github.com/kbaseapps/DataFileUtil", 
+                            "commit": "f2c8a0f36d1282765dffcceadcf96f583518d74f", 
+                            "name": "DataFileUtil", 
+                            "ver": "0.0.17-release"
+                        }
+                    ], 
+                    "time": "2017-06-21T15:20:44+0000"
+                }
+            ], 
+            "refs": [
+                "22079/10/1"
+            ]
+        }
+    ]
+}

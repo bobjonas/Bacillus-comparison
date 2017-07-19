@@ -1,0 +1,129 @@
+{
+    "metadata": [
+        [
+            5, 
+            "GCF_000155375.1", 
+            "KBaseGenomes.Genome-8.2", 
+            "2017-06-19T19:26:08+0000", 
+            1, 
+            "tlu1991", 
+            22079, 
+            "tlu1991:narrative_1497886856926", 
+            "03d49904cc67f455a5656d6e1afd4307", 
+            13614152, 
+            {
+                "Domain": "Bacteria", 
+                "GC content": "0.4350997225625041", 
+                "Genetic code": "11", 
+                "Name": "Bacillus subtilis subsp. subtilis str. SMY", 
+                "Number contigs": "1", 
+                "Number features": "4434", 
+                "Size": "4214643", 
+                "Source": "refseq", 
+                "Source ID": "NZ_CM000490", 
+                "Taxonomy": "cellular organisms; Bacteria; Terrabacteria group; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus subtilis group; Bacillus subtilis; Bacillus subtilis subsp. subtilis", 
+                "accession": "GCF_000155375.1", 
+                "assembly_level": "Chromosome", 
+                "refid": "GCF_000155375", 
+                "refname": "GCF_000155375.1", 
+                "url": "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/155/375/GCF_000155375.1_ASM15537v1/GCF_000155375.1_ASM15537v1_genomic.gbff.gz", 
+                "version": "1"
+            }
+        ]
+    ], 
+    "provenance": [
+        {
+            "copied": "19217/211698/1", 
+            "copy_source_inaccessible": 0, 
+            "created": "2017-03-17T10:07:48+0000", 
+            "creator": "qzhang", 
+            "epoch": 1489745268698, 
+            "extracted_ids": {
+                "handle": [
+                    "KBH_599283"
+                ]
+            }, 
+            "info": [
+                5, 
+                "GCF_000155375.1", 
+                "KBaseGenomes.Genome-8.2", 
+                "2017-06-19T19:26:08+0000", 
+                1, 
+                "tlu1991", 
+                22079, 
+                "tlu1991:narrative_1497886856926", 
+                "03d49904cc67f455a5656d6e1afd4307", 
+                13614152, 
+                {
+                    "Domain": "Bacteria", 
+                    "GC content": "0.4350997225625041", 
+                    "Genetic code": "11", 
+                    "Name": "Bacillus subtilis subsp. subtilis str. SMY", 
+                    "Number contigs": "1", 
+                    "Number features": "4434", 
+                    "Size": "4214643", 
+                    "Source": "refseq", 
+                    "Source ID": "NZ_CM000490", 
+                    "Taxonomy": "cellular organisms; Bacteria; Terrabacteria group; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus subtilis group; Bacillus subtilis; Bacillus subtilis subsp. subtilis", 
+                    "accession": "GCF_000155375.1", 
+                    "assembly_level": "Chromosome", 
+                    "refid": "GCF_000155375", 
+                    "refname": "GCF_000155375.1", 
+                    "url": "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/155/375/GCF_000155375.1_ASM15537v1/GCF_000155375.1_ASM15537v1_genomic.gbff.gz", 
+                    "version": "1"
+                }
+            ], 
+            "orig_wsid": 19217, 
+            "path": [
+                "22079/5/1"
+            ], 
+            "provenance": [
+                {
+                    "custom": {}, 
+                    "external_data": [], 
+                    "input_ws_objects": [], 
+                    "method": "genbank_to_genome", 
+                    "method_params": [
+                        {
+                            "file": {
+                                "ftp_url": "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/155/375/GCF_000155375.1_ASM15537v1/GCF_000155375.1_ASM15537v1_genomic.gbff.gz"
+                            }, 
+                            "generate_ids_if_needed": 1, 
+                            "genome_name": "GCF_000155375.1", 
+                            "metadata": {
+                                "accession": "GCF_000155375.1", 
+                                "assembly_level": "Chromosome", 
+                                "refid": "GCF_000155375", 
+                                "refname": "GCF_000155375.1", 
+                                "url": "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/155/375/GCF_000155375.1_ASM15537v1/GCF_000155375.1_ASM15537v1_genomic.gbff.gz", 
+                                "version": "1"
+                            }, 
+                            "release": "1", 
+                            "source": "refseq", 
+                            "taxon_wsname": "ReferenceTaxons", 
+                            "type": "User upload", 
+                            "workspace_name": "ReferenceDataManager"
+                        }
+                    ], 
+                    "resolved_ws_objects": [], 
+                    "service": "GenomeFileUtil", 
+                    "subactions": []
+                }, 
+                {
+                    "custom": {}, 
+                    "description": "features from upload from refseq", 
+                    "external_data": [], 
+                    "input_ws_objects": [], 
+                    "resolved_ws_objects": [], 
+                    "script": "/kb/module/lib/GenomeFileUtil/core/GenbankUploaderScript.py", 
+                    "script_ver": "0.1", 
+                    "subactions": []
+                }
+            ], 
+            "refs": [
+                "12570/690087/1", 
+                "19217/211697/1"
+            ]
+        }
+    ]
+}
